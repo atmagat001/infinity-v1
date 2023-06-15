@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #efefef;
+  --black: #2d2d2d;
+  --blue: #46458C;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+
+}
+
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+ 
+    
+}
+
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+header ul {
+  display: inline-flex;
+  list-style: none;
+  
+ 
+}
+
+header a {
+  padding: 10px 20px;
+  border-radius: 2px;
+
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+
+}
+
+header a:hover {
+  color: white;
+  background-color: var(--blue);
+  
+  
+
+}
+
+.hero-container {
+  height: calc(100vh - 70px);
+  background: url(./assets/hero-background.jpg) no-repeat center center/cover;
+
+}
+
+.hero-background {
+  background-color: rgba(255, 255, 255, 0.514);
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  padding: 50px;
+  
+}
+
+.hero h1 {
+  padding: 20px 2px; 
+}
+
+.hero h3 {
+  padding: 5px 2px;
+ 
+}
+.hero input, button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin: 0 2px;
+
+}
+.hero button {
+  background-color: var(--blue);
+  color: white;
+}
+
+.services {
+  background-color: var(--primary);
+  padding: 20px 2px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px 0;
+ 
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.card h3, p {
+  padding: 10px 10px;
+  
+}
+.card h3 {
+  font-weight: bold;
+}
+.data-set {
+  background: url(./assets/Dataset.jpg) ;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+.data-pro {
+  background: url(./assets/Datapro.jpg) ;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.card-background {
+  background-color: rgba(0, 0, 0, 0.466);
+  height: 100%;
+  border-radius: inherit
+
+ ;
+}
+
+.card button {
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-active {
+    display: block;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color: var(--primary);
+
+  }
+
+  header button {
+    display: block;
+  }
+
+
+  header ul {
+    display: block;
+    text-align: right;
+    padding: 20px 0;
+  }
+
+  header li {
+    padding: 10px 20px;
+  }
+
+  .hero-background {
+    align-items: center;
+  }
+}
+
+
