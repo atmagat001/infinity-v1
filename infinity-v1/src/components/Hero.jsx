@@ -5,7 +5,7 @@ function Hero() {
     <div>
         <div className="hero hero-container">
             <div className="hero-background">
-                <h1>Unlimited Possibilities</h1>
+                <h1 className='animate__fadeInDown'>Unlimited Possibilities</h1>
                 <h3>We gather data everyday, so you wont have to</h3>
                 <div className="hero-form">
                 <input type="email" placeholder='Enter your email address'/>

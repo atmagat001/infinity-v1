@@ -9,7 +9,7 @@ body {
 
 :root {
   --primary: #efefef;
-  --black: #2d2d2d;
+  --black: #303030;
   --blue: #46458C;
 
 }
@@ -29,11 +29,17 @@ code {
 
 h1 {
   font-size: 3rem;
+  color: var(--black);
+}
+
+h2 {
+  color: var(--black);
 }
 
 h3 {
   font-size: 1.2rem;
   font-weight: 400;
+  color: var(--black);
   
 }
 
@@ -57,7 +63,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: white;
+  background-color: var(--primary);
 }
 
 header ul {
@@ -96,7 +102,7 @@ header a:hover {
 }
 
 .hero-background {
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: rgba(252, 245, 245, 0.524);
   height: 100%;
   display: flex;
   flex-flow: column;
@@ -108,17 +114,23 @@ header a:hover {
 
 .hero h1 {
   padding: 20px 2px; 
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+  letter-spacing: 2px;
+  
 }
+
 
 .hero h3 {
   padding: 5px 2px;
+  font-size: 1.8rem;
  
 }
 .hero input, button {
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
-  border: none;
+  border: solid 1px;
   margin: 0 2px;
 
 }
@@ -130,6 +142,19 @@ header a:hover {
 .services {
   background-color: var(--primary);
   padding: 20px 2px;
+}
+
+.services h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.services h3 {
+  color: white;
+}
+
+.services-background > p {
+  width: 1200px;
+  margin: auto;
 }
 
 .card-container {
@@ -148,6 +173,13 @@ header a:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: white;
+ 
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .card h3, p {
@@ -172,18 +204,69 @@ header a:hover {
 
 }
 
-.card-background {
-  background-color: rgba(0, 0, 0, 0.466);
-  height: 100%;
-  border-radius: inherit
+.estate-pro {
+  background: url(./assets/Estatepro.jpg) ;
+  background-size: cover;
+  background-position: center;
 
- ;
+}
+
+.web-devt {
+  background: url(./assets/Webdevt.jpg) ;
+  background-size: cover;
+  background-position: center;
+
+}
+.card-background {
+  background-color: rgba(0, 0, 0, 0.565);
+  height: 100%;
+  border-radius: inherit;
+  backdrop-filter: blur(2px);
+ 
 }
 
 .card button {
   background-color: transparent;
   color: white;
   text-decoration: underline;
+  border: none;
+}
+
+.dataset-container {
+  
+  padding: 20px 2px;
+  height: 500px;
+
+}
+
+.dataset-background {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  column-gap: 20px;
+  
+
+}
+
+.left-container, .right-container {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  width: 50%;
+  padding: 20px;
+  
+}
+
+.left-container p {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.right-container h3 {
+  text-align: left;
+  padding: 10px 0;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
