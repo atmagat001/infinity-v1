@@ -98,6 +98,7 @@ header button {
   border: none;
   cursor: pointer;
   display: none;
+  
 
 }
 
@@ -145,7 +146,7 @@ header a:hover {
   font-size: 1rem;
   border-radius: 5px;
   border: solid 1px;
-  margin: 0 2px;
+  margin: 5px 2px;
 
 }
 .hero button {
@@ -302,6 +303,48 @@ header a:hover {
   margin: 20px 0;
 }
 
+.datapro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  padding: 20px 2px;
+}
+
+.datapro-container h2 {
+  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.datapro-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 20px;
+  
+  
+}
+
+.datapro-card {
+  height: 300px;
+  width: 300px;
+  
+  background-color: black;
+  
+}
+
+.datapro-card h3 {
+  color: white;
+  padding: 10px 0;
+}
+
+.datapro-card a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
@@ -349,6 +392,11 @@ header a:hover {
   .left-container, .right-container {
     width: 100%;
     padding: 2px;
+  }
+
+  .datapro-card-container {
+    flex-flow: column;
+    row-gap: 20px;
   }
 }
 

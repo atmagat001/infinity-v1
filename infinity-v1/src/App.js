@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Dataset from './components/Dataset';
+import Datapro from './components/Datapro';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Services />
       <Dataset />
+      <Datapro />
     </div>
   );
 }
