@@ -11,7 +11,7 @@ function Services() {
                     <div className="card data-set ">
                         <div className="card-background">
                             <h3>Data Sets</h3>
-                            <p>Our data sets are updated daily, and are available for download in a variety of formats</p>
+                            <p>Use our gathered data for your research, analysis and even marketing your products</p>
                             <button>Learn More</button>
 
                         </div>
@@ -19,7 +19,7 @@ function Services() {
                     <div className="card data-pro">
                         <div className="card-background">
                             <h3>Data Pro</h3>
-                            <p>Our data sets are updated daily, and are available for download in a variety of formats</p>
+                            <p>Data that are highly valuable that can further improve research and analytics.</p>
                             <button>Learn More</button>
 
                         </div>
@@ -35,7 +35,7 @@ function Services() {
                     <div className="card web-devt">
                         <div className="card-background">
                             <h3>Web App Development</h3>
-                            <p>Our data sets are updated daily, and are available for download in a variety of formats</p>
+                            <p>Software as a service products that will help you in managing businesses and or teams.</p>
                             <button>Learn More</button>
 
                         </div>

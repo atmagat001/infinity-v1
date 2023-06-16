@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Logo from '../assets/infinity-logo.png'
 
 function Header() {
 
@@ -15,7 +16,8 @@ function Header() {
     <div className='header-container'>
         <header >
             <div className="logo-container">
-                Infinity 8 Data Solutions
+                <img src={Logo} alt="" />
+                <p>Infinity 8 Data Solutions</p>
             </div>
             <div className={
                 nav ? "nav-container nav-active" : "nav-container"

@@ -27,6 +27,20 @@ code {
 
 }
 
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-container p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header img {
+  width: 10rem;
+}
+
 h1 {
   font-size: 3rem;
   color: var(--black);
@@ -51,7 +65,7 @@ a {
 
 header {
   display: flex;
-  height: 70px;
+  height: 90px;
   width: 100%;
   align-items: center;
   justify-content: space-around;
@@ -96,7 +110,7 @@ header a:hover {
 }
 
 .hero-container {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 90px);
   background: url(./assets/hero-background.jpg) no-repeat center center/cover;
 
 }
@@ -236,7 +250,7 @@ header a:hover {
 .dataset-container {
   
   padding: 20px 2px;
-  height: 500px;
+  
 
 }
 
@@ -268,6 +282,24 @@ header a:hover {
   text-align: left;
   padding: 10px 0;
   font-weight: bold;
+}
+
+.image-container {
+  height: 100px;
+  aspect-ratio: 1/1;
+  background-color: black;
+  
+}
+
+.dataset-card-background {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+}
+
+.dataset-card {
+  margin: 20px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -305,6 +337,18 @@ header a:hover {
 
   .hero-background {
     align-items: center;
+  }
+
+  .dataset-background {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-container, .right-container {
+    width: 100%;
+    padding: 2px;
   }
 }
 
