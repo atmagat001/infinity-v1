@@ -345,6 +345,51 @@ header a:hover {
   padding: 10px 0;
 }
 
+.footer-container {
+  background-color: var(--black);
+  color: white;
+  
+}
+
+.footer-background {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 2px;
+}
+
+.footer-background h2 {
+  color: white;
+
+}
+
+.footer-right-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.footer-right-container h3 {
+  color: white;
+  column-gap: 20px;
+
+}
+
+.footer-subscribe input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: solid 1px;
+  margin: 5px 2px;
+}
+
+.footer-card {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
