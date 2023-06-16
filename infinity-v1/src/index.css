@@ -60,6 +60,7 @@ h3 {
 a {
   text-decoration: none;
   color: var(--black);
+  
 
 }
 
@@ -90,6 +91,7 @@ header ul {
 header a {
   padding: 10px 20px;
   border-radius: 2px;
+  
 
 }
 
@@ -367,12 +369,12 @@ header a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  column-gap: 20px  ;
 }
 
 .footer-right-container h3 {
   color: white;
-  column-gap: 20px;
-
+  
 }
 
 .footer-subscribe input {
@@ -442,6 +444,25 @@ header a:hover {
   .datapro-card-container {
     flex-flow: column;
     row-gap: 20px;
+  }
+
+  .footer-background {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .footer-right-container {
+    flex-flow: column;
+    row-gap: 20px;
+    ;
+  }
+
+  .footer-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
   }
 }
 
