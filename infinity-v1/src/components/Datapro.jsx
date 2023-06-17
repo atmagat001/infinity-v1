@@ -8,7 +8,7 @@ function Datapro() {
                 <h2>Data Pro</h2>
                 <p>Information under the pro subscription will further improve analytics, market research and marketing of your products and services.</p>
                 <div className="datapro-card-container">
-                    <div className="datapro-card">
+                    <div className="datapro-card developer">
                         <div className="datapro-card-background">
                             <div className="datapro-image-container">
                                 
@@ -22,7 +22,7 @@ function Datapro() {
                             <div className="datapro-image-container">
                                 
                             </div>
-                            <h3>Developers and Building Information</h3>
+                            <h3>Summarized Financial Information</h3>
                             <a href="/#">Learn More</a>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function Datapro() {
                             <div className="datapro-image-container">
                                 
                             </div>
-                            <h3>Developers and Building Information</h3>
+                            <h3>Contact Information</h3>
                             <a href="/#">Learn More</a>
                         </div>
                     </div>

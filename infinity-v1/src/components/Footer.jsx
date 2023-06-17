@@ -28,7 +28,7 @@ function Footer() {
                     <div className="footer-subscribe footer-card">
                         <h3>Product Updates</h3>
                         <input type="text" placeholder='Get Product Updates' />
-                        <button>Subscribe Now</button>
+                        <button>Enter Your Email Address</button>
                     </div>
                 </div>
             </div>

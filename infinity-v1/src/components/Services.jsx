@@ -6,12 +6,12 @@ function Services() {
         <div className="services">
             <div className="services-background">
                 <h2>Our Services</h2>
-                <p>We are a startup data science company and we know the value of data in growing your business. For now we only have 1 product - The top corporations database in the Philippines. Other services are in the development stage and we will keep you updated in our progress to make all these services available. </p>
+                <p>We are a startup data science company and we know the value of data in growing your business. For now we only have 1 product - <strong>The Top Corporations in the Philippines- Database</strong>. Other services are in the development stage and we will keep you updated in our progress to make all these services available. </p>
                 <div className="card-container animate__fadeInDown">
                     <div className="card data-set ">
                         <div className="card-background">
                             <h3>Data Sets</h3>
-                            <p>Use our gathered data for your research, analysis and even marketing your products</p>
+                            <p>Use our gathered data for your research, analysis and even marketing your products. API will be available soon</p>
                             <button>Learn More</button>
 
                         </div>

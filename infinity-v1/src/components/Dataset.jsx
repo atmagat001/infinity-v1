@@ -3,11 +3,11 @@ import React from 'react'
 function Dataset() {
   return (
     <div>
-        <div className="dataset-container">
+        <div className="dataset-container" id='dataset'>
             <div className="dataset-background">
                 <div className="left-container">
                     <h2>Free Data Sets</h2>
-                    <p>Free data sets are publicly available information that are published in different official websites that are gathered in one database. </p>
+                    <p>Free data sets are publicly available information that are published in different official websites that are gathered in one database. API will be available soon. </p>
                     <button>Learn More</button>
                 </div>
                 <div className="right-container">
