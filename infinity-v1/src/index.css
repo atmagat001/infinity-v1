@@ -166,19 +166,31 @@ header a:hover {
 }
 
 .services {
+  background: url('./assets/hero2.webp');
+  background-size: contain;
+  background-position: center;
   background-color: var(--primary);
-  padding: 20px 2px;
+  
+}
+
+.services-background {
+  background-color: rgba(255, 255, 255, 0.90);
+  height: 100%;
 }
 
 .services h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding: 20px;
 }
 .services h3 {
   color: white;
 }
 
+
+
 .services-background > p {
+  
   
   max-width: 1200px;
   margin: auto;
