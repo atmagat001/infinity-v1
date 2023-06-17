@@ -2,7 +2,7 @@ import React from 'react'
 
 function Datapro() {
   return (
-    <div>
+    <div className='datapro' id='datapro'>
         <div className="datapro-container">
             <div className="datapro-background">
                 <h2>Data Pro</h2>

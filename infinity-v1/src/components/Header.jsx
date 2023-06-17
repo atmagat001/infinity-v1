@@ -24,9 +24,9 @@ function Header() {
             }>
                 <ul>
                     <li><a href="/#">About Us</a></li>
-                    <li><a href="/#">Our Services</a></li>
+                    <li><a href="#services">Our Services</a></li>
                     <li><a href="#dataset">Data Sets</a></li>
-                    <li><a href="/#">Data Pro</a></li>
+                    <li><a href="#datapro">Data Pro</a></li>
                     <li><a href="/#">Contact Us</a></li>
                 </ul>
                 
