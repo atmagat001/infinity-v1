@@ -248,7 +248,7 @@ header a:hover {
   background-color: rgba(0, 0, 0, 0.565);
   height: 100%;
   border-radius: inherit;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1.5px);
  
 }
 
@@ -340,7 +340,7 @@ header a:hover {
 .datapro-card {
   height: 300px;
   width: 300px;
-  
+  border-radius: 5px;
   background-color: black;
   
 }
@@ -356,9 +356,17 @@ header a:hover {
   padding: 10px 0;
 }
 
+.datapro-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .datapro-card-background {
   background-color: rgba(0, 0, 0, 0.565);
   height: 100%;
+  backdrop-filter: blur(1px);
+  border-radius: inherit;
 }
 
 .developer {
@@ -374,7 +382,7 @@ header a:hover {
 }
 
 .contact {
-  background: url('https://plus.unsplash.com/premium_photo-1664472734080-b702af549b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1895&q=80');
+  background: url('https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
   background-size: cover;
   background-position: center;
 }
