@@ -17,7 +17,7 @@ function Datapro() {
                             <a href="/#">Learn More</a>
                         </div>
                     </div>
-                    <div className="datapro-card">
+                    <div className="datapro-card financial">
                         <div className="datapro-card-background">
                             <div className="datapro-image-container">
                                 
@@ -26,7 +26,7 @@ function Datapro() {
                             <a href="/#">Learn More</a>
                         </div>
                     </div>
-                    <div className="datapro-card">
+                    <div className="datapro-card contact">
                         <div className="datapro-card-background">
                             <div className="datapro-image-container">
                                 
