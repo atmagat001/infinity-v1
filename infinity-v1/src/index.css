@@ -57,6 +57,15 @@ h3 {
   
 }
 
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: solid 1px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: var(--black);
@@ -143,7 +152,7 @@ header a:hover {
   font-size: 1.8rem;
  
 }
-.hero input, button {
+.hero input {
   padding: 10px;
   font-size: 1rem;
   border-radius: 5px;
@@ -350,6 +359,7 @@ header a:hover {
 .footer-container {
   background-color: var(--black);
   color: white;
+  text-align: center;
   
 }
 
@@ -390,6 +400,15 @@ header a:hover {
   flex-flow: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.footer-left-container a {
+  color: white;
+}
+
+.card a {
+  color: white;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {

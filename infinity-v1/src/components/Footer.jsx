@@ -8,8 +8,8 @@ function Footer() {
                 <div className="footer-left-container">
                     <h2>Infinity Eight Data Solutions Inc. </h2>
                     <p>5th Floor Phinma Plaza, Rockwell Center Makati City</p>
-                    <p>Tel: 02 8888 xxxx </p>
-
+                    <p>Tel: 02 8396 6612</p>
+                    <a href="mailto: inquire@infinity8data.com">inquire@infinity8data.com</a>
                 </div>
 
                 <div className="footer-right-container">
@@ -32,6 +32,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <p>2023 All Rights Reserved</p>
         </div>
     </div>
   )

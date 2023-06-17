@@ -27,8 +27,8 @@ function Services() {
                     <div className="card estate-pro" >
                         <div className="card-background">
                             <h3>Estate Pro</h3>
-                            <p>Our data sets are updated daily, and are available for download in a variety of formats</p>
-                            <button>Learn More</button>
+                            <p>CRM solution for Real estate brokers and agents</p>
+                            <a href="https://estateproapp.io" target='_blank' rel="noreferrer">Learn More</a>
 
                         </div>
                     </div>
