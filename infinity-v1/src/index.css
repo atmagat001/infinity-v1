@@ -10,6 +10,20 @@ html {
   scroll-margin-top: 90px;
 }
 
+.popover {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.hidden {
+  display: none;
+}
+
+
 
 
 body {
@@ -184,6 +198,8 @@ header a:hover {
   background-size: contain;
   background-position: center;
   background-color: var(--primary);
+  max-width: 1500px;
+  margin: auto;
   
 }
 
@@ -286,7 +302,8 @@ header a:hover {
 }
 
 .dataset-container {
-  
+  max-width: 1200px;
+  margin: auto;
   padding: 20px 2px;
   
 
