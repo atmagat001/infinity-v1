@@ -12,24 +12,20 @@ html {
 
 .popover {
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .hidden {
   display: none;
 }
 
-
-
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,12 +34,11 @@ body {
 :root {
   --primary: #efefef;
   --black: #303030;
-  --blue: #46458C;
-
+  --blue: #46458c;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -51,8 +46,7 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 .logo-container {
@@ -82,7 +76,6 @@ h3 {
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--black);
-  
 }
 
 button {
@@ -97,8 +90,6 @@ button {
 a {
   text-decoration: none;
   color: var(--black);
-  
-
 }
 
 header {
@@ -107,8 +98,6 @@ header {
   width: 100%;
   align-items: center;
   justify-content: space-around;
- 
-    
 }
 
 .header-container {
@@ -121,15 +110,11 @@ header {
 header ul {
   display: inline-flex;
   list-style: none;
-  
- 
 }
 
 header a {
   padding: 10px 20px;
   border-radius: 2px;
-  
-
 }
 
 header button {
@@ -137,22 +122,16 @@ header button {
   border: none;
   cursor: pointer;
   display: none;
-  
-
 }
 
 header a:hover {
   color: white;
   background-color: var(--blue);
-  
-  
-
 }
 
 .hero-container {
   height: calc(100vh - 90px);
   background: url(./assets/hero-background.jpg) no-repeat center center/cover;
-
 }
 
 .hero-background {
@@ -163,22 +142,18 @@ header a:hover {
   align-items: flex-start;
   justify-content: center;
   padding: 50px;
-  
 }
 
 .hero h1 {
-  padding: 20px 2px; 
+  padding: 20px 2px;
   animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
   letter-spacing: 2px;
-  
 }
-
 
 .hero h3 {
   padding: 5px 2px;
   font-size: 1.8rem;
- 
 }
 .hero input {
   padding: 10px;
@@ -186,7 +161,6 @@ header a:hover {
   border-radius: 5px;
   border: solid 1px;
   margin: 5px 2px;
-
 }
 .hero button {
   background-color: var(--blue);
@@ -194,17 +168,16 @@ header a:hover {
 }
 
 .services {
-  background: url('./assets/hero2.webp');
+  background: url("./assets/hero2.webp");
   background-size: contain;
   background-position: center;
   background-color: var(--primary);
   max-width: 1500px;
   margin: auto;
-  
 }
 
 .services-background {
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(255, 255, 255, 0.9);
   height: 100%;
 }
 
@@ -217,11 +190,7 @@ header a:hover {
   color: white;
 }
 
-
-
 .services-background > p {
-  
-  
   max-width: 1200px;
   margin: auto;
 }
@@ -231,7 +200,6 @@ header a:hover {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 50px 0;
- 
 }
 
 .card {
@@ -242,7 +210,6 @@ header a:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: white;
- 
 }
 
 .card:hover {
@@ -251,47 +218,41 @@ header a:hover {
   cursor: pointer;
 }
 
-.card h3, p {
+.card h3,
+p {
   padding: 10px 10px;
-  
 }
 .card h3 {
   font-weight: bold;
 }
 .data-set {
-  background: url(./assets/Dataset.jpg) ;
+  background: url(./assets/Dataset.jpg);
   background-size: cover;
   background-position: center;
-  
-
 }
 
 .data-pro {
-  background: url(./assets/Datapro.jpg) ;
+  background: url(./assets/Datapro.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
 .estate-pro {
-  background: url(./assets/Estatepro.jpg) ;
+  background: url(./assets/Estatepro.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
 .web-devt {
-  background: url(./assets/Webdevt.jpg) ;
+  background: url(./assets/Webdevt.jpg);
   background-size: cover;
   background-position: center;
-
 }
 .card-background {
   background-color: rgba(0, 0, 0, 0.565);
   height: 100%;
   border-radius: inherit;
   backdrop-filter: blur(1.5px);
- 
 }
 
 .card button {
@@ -305,10 +266,7 @@ header a:hover {
   max-width: 1200px;
   margin: auto;
   padding: 20px 2px;
-  
-
 }
-
 
 .dataset-background {
   display: flex;
@@ -316,17 +274,15 @@ header a:hover {
   justify-content: center;
   height: 100%;
   column-gap: 20px;
-  
-
 }
 
-.left-container, .right-container {
+.left-container,
+.right-container {
   display: flex;
   flex-flow: column;
   align-items: flex-start;
   width: 50%;
   padding: 20px;
-  
 }
 
 .left-container p {
@@ -344,14 +300,12 @@ header a:hover {
   height: 50px;
   aspect-ratio: 1/1;
   background-color: black;
-  
 }
 
 .dataset-card-background {
   display: flex;
   align-items: center;
   column-gap: 20px;
-
 }
 
 .dataset-card {
@@ -367,7 +321,6 @@ header a:hover {
 }
 
 .datapro-container h2 {
-  
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -377,8 +330,6 @@ header a:hover {
   align-items: center;
   justify-content: space-around;
   column-gap: 20px;
-  
-  
 }
 
 .datapro-card {
@@ -386,7 +337,6 @@ header a:hover {
   width: 300px;
   border-radius: 5px;
   background-color: black;
-  
 }
 
 .datapro-card h3 {
@@ -414,19 +364,19 @@ header a:hover {
 }
 
 .developer {
-  background: url('https://images.unsplash.com/photo-1460472178825-e5240623afd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80');
+  background: url("https://images.unsplash.com/photo-1460472178825-e5240623afd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80");
   background-size: cover;
   background-position: center;
 }
 
 .financial {
-  background: url('https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+  background: url("https://images.unsplash.com/photo-1618044733300-9472054094ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
   background-size: cover;
   background-position: center;
 }
 
 .contact {
-  background: url('https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+  background: url("https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -434,7 +384,7 @@ header a:hover {
 .footer-container {
   background-color: var(--black);
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 
 .footer-background {
@@ -447,19 +397,17 @@ header a:hover {
 
 .footer-background h2 {
   color: white;
-
 }
 
 .footer-right-container {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  column-gap: 20px  ;
+  column-gap: 20px;
 }
 
 .footer-right-container h3 {
   color: white;
-  
 }
 
 .footer-subscribe input {
@@ -491,8 +439,9 @@ header a:hover {
   font-size: 1rem;
 }
 
-.footer p, .footer a {
-  font-size: .75rem;
+.footer p,
+.footer a {
+  font-size: 0.75rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -510,13 +459,11 @@ header a:hover {
     top: 70px;
     width: 100%;
     background-color: var(--primary);
-
   }
 
   header button {
     display: block;
   }
-
 
   header ul {
     display: block;
@@ -539,7 +486,8 @@ header a:hover {
     justify-content: center;
   }
 
-  .left-container, .right-container {
+  .left-container,
+  .right-container {
     width: 100%;
     padding: 2px;
   }
@@ -557,7 +505,6 @@ header a:hover {
   .footer-right-container {
     flex-flow: column;
     row-gap: 20px;
-    ;
   }
 
   .footer-card {
@@ -568,5 +515,3 @@ header a:hover {
     width: 300px;
   }
 }
-
-

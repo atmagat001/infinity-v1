@@ -13,9 +13,9 @@ function Hero() {
     console.log(email);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    axios
+    await axios
       .post("http://localhost:8000/register", { email: email })
       .then((res) => {
         console.log(res);
