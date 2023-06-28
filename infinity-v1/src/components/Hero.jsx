@@ -16,7 +16,7 @@ function Hero() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:8000/register", { email: email })
+      .post("https://infinityweb-backend-xvlu.vercel.app/register", { email: email })
       .then((res) => {
         console.log(res);
         setMessage(`Thank you for signing up ${res.data.email}`);
